@@ -49,8 +49,6 @@ public class Test8 {
         SingleOutputStreamOperator<Tuple2<String, Integer>> result = keyedStream.sum(1);
 
         //将端口的处理结果转化为JavaBena
-        result.map(line ->{
 
-        })
     }
 }
